@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
   - name:     shell
-    image:    centos:7
+    image:    alpine:latest
     command:
       - "bin/bash"
       - "-c"
